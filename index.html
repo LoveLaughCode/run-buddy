@@ -85,13 +85,18 @@
             <div class="flex-row">  
                 <h2 class="section-title primary-border">What You Do</h2>
             </div>
-            <div>
-                <!--insert this image element-->
-                <img src="./assets/images/step-1.svg" alt="" />
-                <h3>Step 1: <span>Fill Out the Form Above.</span></h3>
-                <p>You're already here, so why not?</p>
-            </div>
-
+            <div class="step">
+                <h3>Step 1.</h3>
+                <div class="step-info">
+                        <div class="step-img">
+                            <img src="./assets/images/step-1.svg" alt="" />
+                        </div>
+                        <div class="step-text">
+                            <h4>Fill Out The Form Above</h4>
+                            <p>You're already here, so why not?</p>
+                        </div>
+                    </div>
+                </div>    
             <div>
                 <img src="./assets/images/step-2.svg" alt="" />
                 <h3>Step 2: <span>Consult with One of Our Trainers.</span></h3>
@@ -112,16 +117,17 @@
         </section> </span>
 
         <!--"meet the trainers" secion-->
-        <section id="your-trainers" class="trainers">
+        <section id="your-trainers">
             <div class="flex-row">
                 <h2 class="section-title primary-border">Meet The Trainers</h2>
             </div>
             <!-- first trainer bio -->
+        <div class="trainers">
             <article class="trainer">
                 <img src="./assets/images/trainer-1.jpg" alt="Arron Stephens in his workout clothes, ready to pump iron"/>
-                <div class="trainer-bio" "text-left">
-                    <h3>Arron Stephens</h3>
-                    <h4>Speed / Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Arron Stephens</h3>
+                    <h4 class="trainer-role">Speed / Strength</h4>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit aspernatur, dignissimos vero corrupti blanditiis iste minus explicabo. Ipsam iusto impedit itaque, consectetur minima illo et nesciunt ex! Provident, sit minus?
                     </p>
@@ -129,9 +135,9 @@
             </article>
             <!-- second trainer bio -->
             <article class="trainer">
-                <div class="trainer-bio text-right">
-                    <h3>Joann Gill</h3>
-                    <h4>Endurance</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Joann Gill</h3>
+                    <h4 class="trainer-role">Endurance</h4>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam modi laudantium libero ex impedit voluptates animi rem quisquam temporibus, dicta, tempora blanditiis nobis necessitatibus ut quibusdam porro praesentium sapiente vero?     
                     </p>
                 </div>
@@ -140,13 +146,14 @@
             <!-- third trainer bio -->
             <article class="trainer">
                 <img src="./assets/images/trainer-3.jpg" alt="Harry Smith wearing a headband and lifting comically small pink weights" />
-                <div class="trainer-bio text left">
-                    <h3>Harry "The Headband" Smith</h3>
-                    <h4>Strength</h4>
+                <div class="trainer-bio">
+                    <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+                    <h4 class="trainer-role">Strength</h4>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit recusandae voluptatum nostrum aliquid ipsum sed natus omnis repellat quos dolorum rem consequatur maxime, harum beatae laborum tempora ad qui! Hic?
                     </p>
                 </div>
             </article>
+        </div>
         </section>
         <!--end hero-->
         
